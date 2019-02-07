@@ -1,0 +1,182 @@
+body {
+    background-color: black;
+    background-image: linear-gradient(to bottom right, black, rgb(0, 0, 49));
+}
+
+div {
+    float:left;
+}
+
+.header {
+    position: relative; 
+    width: 100%; 
+    height: 100%;
+}
+
+.header img {
+    object-fit: cover;
+}
+
+.dropdown, .navbar a {
+    position: relative;
+    display: inline-block;
+    padding: 14px 40px; 
+    background-color: rgb(3, 3, 58);
+    color: whitesmoke;
+    text-align: center;
+    margin: 5px 40px;
+    text-decoration: none; 
+    cursor: pointer; 
+    font-size: 200%; 
+    border-radius: 10px;
+}
+
+.navbar {
+    height: 100%;
+    object-fit: cover;
+    position: -webkit-sticky;
+    position: sticky;
+    margin:0px;
+    list-style-type: none;
+    background-color: rgb(3, 3, 58);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.navbar li {
+    display: inline-block; 
+    text-decoration: none; 
+}
+
+.navbar dev {
+    margin-left: 0px;
+    color:whitesmoke;
+    cursor: default;
+    background-color: rgb(3, 3, 58);
+    font-size: 200%;
+}
+
+/* .navbar a {
+    margin: 5px 40px;
+    text-decoration: none; 
+    display: inline-block; 
+    cursor: pointer; 
+    padding: 14px 40px; 
+    font-size: 200%; 
+    background-color: rgb(3, 3, 58);
+    color: whitesmoke;
+    border-radius: 10px;
+} */
+
+.navbar a:hover {
+    background-color: brown;
+    color: black;
+}
+
+.navbar a:active {
+    background-color: slateblue;
+    color: lightgreen;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -150px;
+    min-width: 150px; 
+    border-radius: 15px;
+    z-index:1;
+}
+
+.dropdown:hover {
+    background-color: brown;
+    color: black;
+    text-decoration: none; 
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: whitesmoke;
+    padding: 0px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 50%;
+}
+
+
+p { 
+
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 150%;
+}
+
+h1 {
+    text-align:center;
+    color:blanchedalmond;
+    font-size: 200%;
+}
+
+.sidebar {
+    height: 500px;
+    width: 300px;
+    border:15px darkgreen;
+    box-sizing: border-box;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.margins {
+    margin-left: 10%;
+    margin-right: 10%;
+}
