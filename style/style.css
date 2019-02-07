@@ -1,4 +1,4 @@
-body {
+html {
     background-color: black;
     background-image: linear-gradient(to bottom right, black, rgb(0, 0, 49));
 }
@@ -6,6 +6,12 @@ body {
 .floats {
     float: left;
 }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 .header {
     position: relative; 
@@ -108,12 +114,30 @@ h1 {
 }
 
 .sidebar {
-    margin-top: 20px;
-    height: 500px;
-    width: 300px;
-    border:15px darkgreen solid;
+    background-color: rgb(3, 3, 58);
+    margin-top: 15px;
+    border:1px Black solid;
     border-radius: 15px;
     box-sizing: border-box;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar p {
+    font-size: 150%;
+    color: blanchedalmond;
+}
+
+.sidebar a {
+    font-size: 150%;
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    color: goldenrod;
 }
 
 .col-1 {
